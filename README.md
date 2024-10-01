@@ -23,7 +23,7 @@ Same object having different behaivours.
 #### Compile Time Polymorphism
 A polymorphism which exists at the time of compilation is called Compile Time Polymorphism
 
-**Ex: Method Overloading**
+- **Ex: Method Overloading**
 - When a class contains more than one method with same name and different types and different number of parameters.
   -     int pol(int a)
   -     int pol(int a,int b)
@@ -31,21 +31,21 @@ A polymorphism which exists at the time of compilation is called Compile Time Po
 #### Runtime Polymorphism
 A polymorphism which exists at the time of execution of program is called Runtime Polymorphism
 
-**Ex: Method Overriding**
+- **Ex: Method Overriding**
 - Whenever we are writing method in the **super(base) and sub(derived)** class in such a way that the method name and parameter must be same called method overriding.
 - It uses **extend** keyword in **derived** class.
 - We can't perform method overriding without using **Inheritance.**
   -     class A{
             void show()
             {
-            -----
-            -----
+              -----
+              -----
             }
         }
         class B extends A{
             void show()
             {
-            -----
-            -----
+              -----
+              -----
             }
         }
