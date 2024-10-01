@@ -106,12 +106,12 @@ Encapsulation is a mechanism through which we can wrap the data members and memb
 Data Abstraction is a process of hiding the implementation details from the user. Only the highlighted set of services are provided to the user.<br>
 
 **Advantages :**
-- Security
-- Enhancement
+>- Security
+>- Enhancement
 
 **Abstraction level :**
-- Abstract class -> 20%
-- Interface -> 100%
+>- Abstract class -> 20%
+>- Interface -> 100%
 
 #### Abstract Class
 The class which contains the abstract keyword in its declaration is called abstract class.<br>
@@ -121,8 +121,7 @@ The class which contains the abstract keyword in its declaration is called abstr
 - To use an abstract class, you have to inherit it from subclass.
 - If a class contgain partial implementation then we should declare a class as abstract.
 
-- - Here when the method is abstract, the class will be abstract
-
+  - Here when the method is abstract, the class will be abstract
   -     abstract class A
         {
             abstract void m1()         
@@ -132,8 +131,7 @@ The class which contains the abstract keyword in its declaration is called abstr
             }
         }
     
-- - Here when the method is not abstract then we can make the class as abstract if we want.
-
+  - Here when the method is not abstract then we can make the class as abstract if we want.
   -     class A
         {
             public void m1()
@@ -144,4 +142,19 @@ The class which contains the abstract keyword in its declaration is called abstr
         }
 
 
-** Q) Why we don't make object of abstract class?**
+**Q) Why we don't make object of abstract class?**
+- Because we gonna access/use the methods of abstract class from different classses.
+  -     abstract class animal
+        {
+            public abstract void eat()
+        }
+        class dog extends animal
+        {
+            -----
+            -----
+        }
+        class tiger extends animal
+        {
+            -----
+            -----
+        }
