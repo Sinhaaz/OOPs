@@ -50,7 +50,27 @@ A polymorphism which exists at the time of execution of program is called Runtim
             }
         }
 <img src = "">
+
 ### 2. Inheritance
 When we create a new class from existing class in such a way that the new class access all the features and properties of existing class called Inheritance.
 - In java **extends** keyword is used to perform inheritance.
 - It provides code reusability
+- We can't access private members of class through inheritance.
+- A subclass contains ll the features of super class. Therefore we should create the object of sub class(new class)
+- **Method Overriding** only possible through inheritance.
+  -      //Base/Super class
+         class A{
+            void show()
+            {
+              -----
+              -----
+            }
+        }
+       //Derived / Sub class
+        class B extends A{
+            void show()
+            {
+              -----
+              -----
+            }
+        }
