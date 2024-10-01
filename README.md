@@ -73,8 +73,75 @@ When we create a new class from existing class in such a way that the new class 
             }
         }
 - **Object hamesha sub class ke banane chahiye, kyuki subclass mein saare properties hote h super class ke.**
-<img src = "Types of Inheritance">
+<img src = "">
 
-### 3. Encapsulation 
+### 3. Encapsulation
 Encapsulation is a mechanism through which we can wrap the data members and member methods of class in a single unit is called Encapsulation.
-- 
+
+<br>Note :-
+- Declare the class variable as a private
+- Declare the class methods as a public
+  -     class A
+        {
+            private int value;                  // Data hiding
+            public void setValue(int x)         // Data abstraction
+            {
+                value = x;
+            }
+            public int getValue()
+            {
+                return value;
+            }
+        }
+        class B
+        {
+            public static void main(String args[])
+            {
+                A obj = new A();
+                obj.setValue(100);
+                System.out.println(obj.getValue());
+            }
+        }
+### 4. Abstraction
+Data Abstraction is a process of hiding the implementation details from the user. Only the highlighted set of services are provided to the user.<br>
+
+**Advantages :**
+- Security
+- Enhancement
+
+**Abstraction level :**
+- Abstract class -> 20%
+- Interface -> 100%
+
+#### Abstract Class
+The class which contains the abstract keyword in its declaration is called abstract class.<br>
+
+- We can't reate object for abstract class.
+- It may or may not contain abstract methods.
+- To use an abstract class, you have to inherit it from subclass.
+- If a class contgain partial implementation then we should declare a class as abstract.
+
+- - Here when the method is abstract, the class will be abstract
+
+  -     abstract class A
+        {
+            abstract void m1()         
+            {
+                -----
+                -----
+            }
+        }
+    
+- - Here when the method is not abstract then we can make the class as abstract if we want.
+
+  -     class A
+        {
+            public void m1()
+            {
+                -----
+                -----
+            }
+        }
+
+
+** Q) Why we don't make object of abstract class?**
