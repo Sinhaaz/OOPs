@@ -20,7 +20,7 @@ Same object having different behaivours.
 i. Compile time polymorphism
 ii. Runtime polymorphism
 
-####i. Compile Time Polymorphism
+#### i. Compile Time Polymorphism
 A polymorphism which exists at the time of compilation is called Compile Time Polymorphism
 
 **Ex: Method Overloading**
@@ -28,7 +28,7 @@ A polymorphism which exists at the time of compilation is called Compile Time Po
   -     int pol(int a)
   -     int pol(int a,int b)
 
-####ii. Runtime Polymorphism
+#### ii. Runtime Polymorphism
 A polymorphism which exists at the time of execution of program is called Runtime Polymorphism
 
 **Ex: Method Overriding**
