@@ -25,7 +25,7 @@ A polymorphism which exists at the time of compilation is called Compile Time Po
 
 **Ex: Method Overloading**
 - When a class contains more than one method with same name and different types and different number of parameters.
-- - int pol(int a)
+  -     int pol(int a)
   -     int pol(int a,int b)
 
 #### Runtime Polymorphism
