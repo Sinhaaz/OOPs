@@ -49,7 +49,7 @@ A polymorphism which exists at the time of execution of program is called Runtim
               -----
             }
         }
-<img src = "">
+<img src = "IMG-20241002-WA0004.jpg">
 
 ### 2. Inheritance
 When we create a new class from existing class in such a way that the new class access all the features and properties of existing class called Inheritance.
