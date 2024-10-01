@@ -58,7 +58,7 @@ When we create a new class from existing class in such a way that the new class 
 - We can't access private members of class through inheritance.
 - A subclass contains ll the features of super class. Therefore we should create the object of sub class(new class)
 - **Method Overriding** only possible through inheritance.
-  -      //Base/Super class
+  -      // Base/Super class
          class A{
             void show()
             {
@@ -66,7 +66,7 @@ When we create a new class from existing class in such a way that the new class 
               -----
             }
         }
-       //Derived / Sub class
+       // Derived / Sub class
         class B extends A{
             void show()
             {
