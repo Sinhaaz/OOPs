@@ -73,10 +73,13 @@ When we create a new class from existing class in such a way that the new class 
             }
         }
 - **Object hamesha sub class ke banane chahiye, kyuki subclass mein saare properties hote h super class ke.**
-<img src = "">
+<img src = "IMG-20241002-WA0003.jpg">
+<img src = "IMG-20241002-WA0002.jpg">
 
 ### 3. Encapsulation
 Encapsulation is a mechanism through which we can wrap the data members and member methods of class in a single unit is called Encapsulation.
+
+<img src = "IMG-20241002-WA0004.jpg">
 
 <br>Note :-
 - Declare the class variable as a private
