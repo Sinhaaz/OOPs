@@ -49,7 +49,7 @@ A polymorphism which exists at the time of execution of program is called Runtim
               -----
             }
         }
-**Checking whether a method is overriden or not**
+**Checking whether a method is overriden or not :**
 <img src = "IMG-20241002-WA0004.jpg">
 
 ### 2. Inheritance
