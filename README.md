@@ -8,8 +8,8 @@ In programming languages there are basically two approaches :
 
 OOPs stands on 4 pillars :
 >- Polymorphism
->- Encapsulation
 >- Inheritance
+>- Encapsulation
 >- Data Abstraction
 
 ### 1. Polymorphism
@@ -58,17 +58,23 @@ When we create a new class from existing class in such a way that the new class 
 - We can't access private members of class through inheritance.
 - A subclass contains ll the features of super class. Therefore we should create the object of sub class(new class)
 - **Method Overriding** only possible through inheritance.
-  -     class A{ // Base/Super class
+  -     class A{                               // Base/Super class
             void show()
             {
               -----
               -----
             }
         }
-        class B extends A{ // Derived/Sub class
+        class B extends A{                     // Derived/Sub class
             void show()
             {
               -----
               -----
             }
         }
+- **Object hamesha sub class ke banane chahiye, kyuki subclass mein saare properties hote h super class ke.**
+<img src = "Types of Inheritance">
+
+### 3. Encapsulation 
+Encapsulation is a mechanism through which we can wrap the data members and member methods of class in a single unit is called Encapsulation.
+- 
